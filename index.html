@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Finder | Sohail</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="card">
+      <h1>Food Finder App</h1>
+      <div class="input-container">
+        <input type="search" placeholder="Search Food by name" id="searchBox" />
+        <button class="btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+      <div class="loading-container">
+        <p class="load">Loading...</p>
+      </div>
+      <div class="food-main">
+        <div class="food-img-info">
+          <img src="" alt="food img" id="foodImg" />
+        </div>
+        <h2 class="food-name">Food Name</h2>
+        <p class="summary">Summary</p>
+        <div class="food-btns">
+          <button class="dishType">Dinner</button>
+          <!-- <button class="cuisines">Pakistani</button> -->
+          <button class="cooktime">25min</button>
+        </div>
+        <button class="viewDetails">View Details</button>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div id="recipeModal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2 class="modal-title"></h2>
+        <h3>Ingredients</h3>
+        <ul class="modal-ingredients"></ul>
+        <h3>Instructions</h3>
+        <ol class="modal-instructions"></ol>
+        <div class="modal-linkDiv">
+          <a class="modal-link" href="#" target="_blank">Open Full Recipe</a>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>

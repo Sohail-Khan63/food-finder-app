@@ -15,3 +15,6 @@ The **Food Finder App** helps users discover food recipes, cuisines, and cooking
 - **CSS3** – Styling & Responsiveness  
 - **JavaScript (Vanilla JS)** – Functionality  
 - **[Spoonacular API](https://spoonacular.com/food-api)**
+
+## Demo
+[https://sohail-khan63.github.io/food-finder-app/](https://sohail-khan63.github.io/food-finder-app/)
